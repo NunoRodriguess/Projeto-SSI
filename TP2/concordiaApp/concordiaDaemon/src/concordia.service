@@ -1,0 +1,10 @@
+[Unit]
+Description=ConcordiaDaemon
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/home/nuno/Desktop/concordiaApp/concordiaDaemon/concordia-app
+
+[Install]
+WantedBy=multi-user.target

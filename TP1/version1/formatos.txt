@@ -1,0 +1,19 @@
+FORMATO DO DICIONARIO DE LEITURA
+{
+    "ID_Cliente1": [
+        {"assinatura": sig1, "message": m2, "lida": 0},
+        {"assinatura": sig2, "message": m2, "lida": 1}
+        ...
+    ],
+    "ID_Cliente2": [
+        {"assinatura": sig3, "message": m3, "lida" 0}
+        ...
+    ]
+}
+
+FORMATO DO DICIONARIO DE CERTIFICADOS
+{
+    "ID_Cliente1": certificado1,
+    "ID_Cliente2": certificado2,   
+    .... 
+}

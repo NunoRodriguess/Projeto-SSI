@@ -1,0 +1,84 @@
+{
+  "registos": [
+    {
+      "timestamp": "2024-04-07T19:41:57.959361",
+      "mensagem": {
+        "tipo": "login",
+        "clientID": "MSG_CLI1",
+        "dados": "Rececao do pedido de login do cliente"
+      }
+    },
+    {
+      "timestamp": "2024-04-07T19:41:57.959706",
+      "mensagem": {
+        "tipo": "login",
+        "clientID": "MSG_CLI1",
+        "dados": "Envio da confirmacao do login do cliente"
+      }
+    },
+    {
+      "timestamp": "2024-04-07T19:42:33.159482",
+      "mensagem": {
+        "tipo": "login",
+        "clientID": "MSG_CLI2",
+        "dados": "Rececao do pedido de login do cliente"
+      }
+    },
+    {
+      "timestamp": "2024-04-07T19:42:33.159984",
+      "mensagem": {
+        "tipo": "login",
+        "clientID": "MSG_CLI2",
+        "dados": "Envio da confirmacao do login do cliente"
+      }
+    },
+    {
+      "timestamp": "2024-04-07T19:43:08.363382",
+      "mensagem": {
+        "tipo": "send",
+        "clientID": "MSG_CLI2",
+        "dados": "Rececao da mensagem enviada do cliente"
+      }
+    },
+    {
+      "timestamp": "2024-04-07T19:43:08.363847",
+      "mensagem": {
+        "tipo": "send",
+        "clientID": "MSG_CLI2",
+        "dados": "Envio da confirmacao do envio da mensagem ao cliente"
+      }
+    },
+    {
+      "timestamp": "2024-04-07T19:43:28.151156",
+      "mensagem": {
+        "tipo": "askqueue",
+        "clientID": "MSG_CLI1",
+        "dados": "Rececao do pedido de leitura das mensagens na queue"
+      }
+    },
+    {
+      "timestamp": "2024-04-07T19:43:28.151650",
+      "mensagem": {
+        "tipo": "askqueue",
+        "clientID": "MSG_CLI1",
+        "dados": "Envio das mensagens na queue do cliente"
+      }
+    },
+    {
+      "timestamp": "2024-04-07T19:43:33.963991",
+      "mensagem": {
+        "tipo": "getmsg",
+        "clientID": "MSG_CLI1",
+        "dados": "Rececao do pedido de leitura de uma mensagem"
+      }
+    },
+    {
+      "timestamp": "2024-04-07T19:43:33.964446",
+      "mensagem": {
+        "tipo": "getmsg",
+        "clientID": "MSG_CLI1",
+        "dados": "Leitura da mensagem na queue do cliente"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[Unit]
+Description=ManagerDaemon
+
+[Service]
+ExecStart=/home/nuno/Desktop/concordiaApp/concordiaUser/daemon-manager
+Environment="XDG_RUNTIME_DIR=/run/user/%U"
+Environment="DBUS_SESSION_BUS_ADDRESS=unix:path=${XDG_RUNTIME_DIR}/bus"
+
+[Install]
+WantedBy=multi-user.target
